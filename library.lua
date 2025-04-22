@@ -177,7 +177,7 @@ end
     end 
 
     if not isfile(library.directory .. "/fonts/main.ttf") then 
-        writefile(library.directory .. "/fonts/main.ttf", game:HttpGet("https://github.com/atlastoby-hax/serenium/raw/refs/heads/main/ProggyClean.ttf"))
+        writefile(library.directory .. "/fonts/main.ttf", game:HttpGet("https://github.com/atlastoby-hax/serenium/raw/refs/heads/main/font.ttf"))
     end 
     
     local tahoma = {
